@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Listado de Usuarios</h1>
+        <nav>
+            <a href="index.html">Regresar al Dashboard</a>
+        </nav>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Email</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1001</td>
+                    <td>Juan Pérez</td>
+                    <td>juan.perez@example.com</td>
+                    <td><a href="usuario_form.html?id=1001">Editar</a></td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Ana Gómez</td>
+                    <td>ana.gomez@example.com</td>
+                    <td><a href="usuario_form.html?id=1002">Editar</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="usuario_form.html">Agregar Usuario</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 e-Commerce</p>
+    </footer>
+</body>
+</html>
